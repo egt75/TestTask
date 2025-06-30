@@ -1,0 +1,181 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            
+            <link rel="stylesheet" href="CSS/header.css">
+            <link rel="stylesheet" href="CSS/body.css">
+            <link rel="stylesheet" href="CSS/footer.css">
+            <link rel="stylesheet" href="CSS/modal.css">
+            <link rel="stylesheet" href="CSS/slide-out-info.css">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+            <title>
+                MMLampadari
+            </title>
+        </head>
+        <body>
+            <header>
+                <div class="flex-container-logo"><img src="sources/logo.jpeg" class="logo"></div>
+                <div class="flex-menu">
+                    <button class="flex-reserv" id="open-modal-btn">
+                        <p> AREA RISERVATA <img src="icons/icons8-lock-50.png" class="icon-lock"> </p>
+                    </button>
+                    <div class="modal" id="reserv-modal">
+                        <div class="modal-box">
+                            <button id="close-reserv-modal-btn" class="close-reserv-modal">
+                                <div class="close-reserv-modal-sym">&times;</div>
+                            </button> 
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore voluptatum, quibusdam atque deserunt voluptatem nihil porro itaque enim soluta maxime optio assumenda possimus? Autem voluptatum libero doloremque sequi suscipit!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-container-menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">HOME</a>
+                                    <ul>
+                                        <li><a href="#"><div class="accordeon-menu">STORIA</div></a></li><hr>
+                                        <li><a href="#">MM DESIGN</a></li><hr>
+                                        <li><a href="#">DESIGNER</a></li><hr>
+                                        <li><a href="#">CERTIFICAZIONI</a></li>    
+                                    </ul>
+                                </li>
+                                <li><a href="#">AZIENDA</a></li>
+                                <li><a href="#">COLLEZIONI</a></li>
+                                <li><a href="#">NEWS</a></li>
+                                <li><a href="#">CONTATTI</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>  
+            </header>
+            <div class="slider-container">
+                    
+                <div class="slider" id="slider">
+                    <img src="sources/background.jpg" class="slider" alt="Slider 01">
+                    <img src="sources/background1.jpeg" class="slider" alt="Slider 02"> 
+                    <img src="sources/background2.jpg" class="slider" alt="Slider 03">
+                </div>
+                <div class="block-on-photo">
+                    <h1 class="title-on-block">LAMPADARI CONTEMPORANEI</h1>
+                    <div class="info-on-block">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor dolore
+                    </div>
+                </div>
+                <div class="newsletter-overlay">
+                    <button class="toggle-button white-bg arrow down" id="newsletterToggle">
+                        <span  class="chevron-down"></span>
+                    </button>
+
+                    <div class="accordion-container">
+                        <div class="accordion-content beige-bg black-txt">
+                            <h3 class="accordeon-title">Stai pensando ad un progetto?</h3>
+                            <p class="accordeon-info">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor dolore 
+                            </p>
+                        </div>
+                        <div class="accordion-content white-bg black-txt">
+                            <h3 class="accordeon-title">Vi aspettiamo alla fiera Euroluce</h3>
+                            <p class="accordeon-info">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor dolore 
+                            </p>
+                        </div>
+                        <div class="accordion-content black-bg white-txt">
+                            <h3 class="accordeon-title">Scopri la nuova collezione</h3>
+                            <p class="accordeon-info">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor dolore 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="flex-container-footer">
+                    <div class="footer-info">
+                        <h2>
+                            LAMPADARI MADE IN ITALY
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis
+                            nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea
+                        </p>    
+                    </div>
+                    <div class="footer-info">
+                        <h2>
+                            LAMPADARI ARTIGIANALI
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis
+                            nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea
+                        </p>    
+                    </div>
+                    <div class="footer-info">
+                        <h2>
+                            45 ANNI DI ESPERIENZA
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis
+                            nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea
+                        </p>    
+                    </div>
+                    <div class="footer-info">
+                        <h2>
+                            NEWSLETTER
+                        </h2>
+                        <form>
+                            <input type="text" class="text-field__input" name="Nome" placeholder=" Nome e Cognome" size="18"/>
+                            <input type="text" class="text-field__input" name="Email" placeholder=" Email" size="auto"/>
+                            <div class="checkbox">
+                                <input class="checkbox-input" type="checkbox" id="checkbox1">
+                                <label class="checkbox-label" for="checkbox1"> Acconsento al trattamento dei dati</label>
+                            </div>
+                            <button class="button-reg"> ISCRIVITI</button>
+                        </form>   
+                    </div>
+                </div>
+                <div class="flex-sub-container-footer">
+                    <div class="footer-info-sub">MMLAMPADARI srl</div>
+                    <div class="footer-info-sub">Via Feltrina 00</div>
+                    <div class="footer-info-sub">31111 Pederobba (TV)</div>
+                    <div class="footer-info-sub">0423.123456</div>
+                    <div class="footer-info-sub">info@mmlampadari.mm</div>
+                    <div class="footer-info-sub">P.IVA 04123456789</div>
+                    <div class="footer-info-sub wide">
+                        <a href="#"><img class="icon" src="icons/icons8-facebook-50.png">
+                        <a href="#"></a><img class="icon" src="icons/icons8-instagram-old-50.png">
+                        <a href="#"></a><img class="icon" src="icons/icons8-pinterest-p-50.png">
+                    </div>
+                    <div class="footer-info-sub lang">ITA | ENG | DEU | PYC</div>
+                </div>
+                </div>
+            </footer> 
+            <script src="JS/slider.js"></script> 
+            <script src="JS/slide-out-info.js"></script> 
+            <script src="JS/modal.js"></script> 
+        </body>
+    </html>
