@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.grid-main{
+    margin-right: 23px;
+    margin-left: 23px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 49px);
+    justify-content: space-evenly;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+   max-height: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.slider {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.block-on-photo{
+    overflow: hidden;
+    z-index: 90;
+    background: rgba(255, 255, 255, 0.85);
+    width: 39.5em;
+    position: absolute; 
+    top: 37.5%; 
+    right: 0%;        
+    align-items: center;
+}
+
+.title-on-block{
+    padding: 0.6em 1.2em;
+    font-style: italic;
+    font-family: "Playfair";
+}
+.info-on-block{
+    margin: 0.4em 1.7em 0.8em 1.7em;
+    font-size: 1.35em;
+    font-family: "Open Sans"; 
+}
